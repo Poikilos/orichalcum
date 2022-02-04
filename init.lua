@@ -21,7 +21,7 @@ minetest.register_craftitem( "orichalcum:orichalcum_shard", {
 
 minetest.register_node( "orichalcum:orichalcum_block", {
 description = "Orichalcum Block",
-tile_images = { "orichalcum_block.png",
+tile_images = { "orichalcum_block.png" },
 is_ground_content = true,
 groups = {cracky=3},
 sounds = default.node_sound_stone_defaults(),
@@ -55,7 +55,7 @@ minetest.register_tool("orichalcum:axe", {
         max_drop_level=2,
         groupcaps={
             choppy={times={[1]=0.60, [2]=0.30, [3]=0.15}, uses=125, maxlevel=2},
-            fleshy={times={[1]=1.50 [2]=1.10, [3]=0.60}, uses=125, maxlevel=1}
+            fleshy={times={[1]=1.50, [2]=1.10, [3]=0.60}, uses=125, maxlevel=1}
         }
     },
 })
