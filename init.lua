@@ -7,8 +7,8 @@ minetest.register_craftitem( "orichalcum:orichalcum_gem", {
 minetest.register_node( "orichalcum:orichalcum_ore", {
     description = "Orichalcum Ore",
     tile_images = { "orichalcum_ore.png" },
-drop = "orichalcum:orichalcum_shard",
-is_ground_content = true,
+    drop = "orichalcum:orichalcum_shard",
+    is_ground_content = true,
     groups = {cracky=3},
     sounds = default.node_sound_stone_defaults(),
 })
@@ -20,11 +20,11 @@ minetest.register_craftitem( "orichalcum:orichalcum_shard", {
 })
 
 minetest.register_node( "orichalcum:orichalcum_block", {
-description = "Orichalcum Block",
-tile_images = { "orichalcum_block.png" },
-is_ground_content = true,
-groups = {cracky=3},
-sounds = default.node_sound_stone_defaults(),
+    description = "Orichalcum Block",
+    tile_images = { "orichalcum_block.png" },
+    is_ground_content = true,
+    groups = {cracky=3},
+    sounds = default.node_sound_stone_defaults(),
 })
 
 
