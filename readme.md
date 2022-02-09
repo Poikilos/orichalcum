@@ -18,18 +18,18 @@ License: See license.txt (The original license said I could do whatever I want, 
 ### Testing
 
 #### Ore generation
-
-(exposed: the ore is exposed to air without digging)
-
-##### Seed: orichalcum
 - tested using amhi_game
+- Seed: orichalcum
+- mapgen type: Carpathian
+
+Terms:
+- exposed: The ore is exposed to air without digging.
 
 Conclusions:
 - In the last Chinchow version (4), orichalcum ore is about as rare as diamond or possibly less rare, so the rarity is pretty good (but maybe it should be more rare than diamond).
 - See also "Remove ore generation" under "Planning".
 
 Samples:
-- mapgen type: Carpathian
 - mese: near -7,-1000,43 (rare, none found easily near y=-150)
 - gold: near -7,-1008,-2 (somewhat rare, none found easily near y=-150)
 - cave 1: (large, but near bottom so look up) -7,-1008,79
